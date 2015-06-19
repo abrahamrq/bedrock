@@ -21,8 +21,6 @@
 //= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
 //= require twitter/bootstrap
 //= require moment
-//= require bootstrap-datetimepicker
-//= require pickers
 
 
 //= require turbolinks

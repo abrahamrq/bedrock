@@ -26,6 +26,7 @@ gem 'awesome_nested_fields'
 gem 'sweetalert-rails'
 gem 'sweet-alert-confirm'
 gem 'devise'
+gem 'momentjs-rails', '>= 2.8.1'
 
 group :development, :test do
 	gem 'pry-rails'

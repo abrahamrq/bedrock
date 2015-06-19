@@ -60,25 +60,25 @@ nav {
     opacity: 0;
     height: 100%;
 }
-    nav a {
-        float: left;
-        padding: 8px 0;
-        opacity: .5;
-        width: 100%;
-        transition: .3s ease;
-        font-size: 1em;
-        text-transform: uppercase;
-        font-weight: bold;
-        line-height: 1.85em;
-    }
-    nav a:hover, .current, .toggle .navBtn {
-        opacity: 1;
-    }
+nav a {
+    float: left;
+    padding: 8px 0;
+    opacity: .5;
+    width: 100%;
+    transition: .3s ease;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.85em;
+}
+nav a:hover, .current, .toggle .navBtn {
+    opacity: 1;
+}
 
-    .toggle nav {
-        padding-left: 40px;
-        opacity: 1;
-    }
+.toggle nav {
+    padding-left: 40px;
+    opacity: 1;
+}
 
 .navBtn {
     font-size: 2em;
@@ -97,11 +97,11 @@ nav {
     left: 0;
 }
 
-    .toggle .navBtn{
-        -webkit-transform:rotate(224deg); 
-        color: #fff;
-        left: -85px;
-    }
+.toggle .navBtn{
+    -webkit-transform:rotate(224deg); 
+    color: #fff;
+    left: -85px;
+}
 
 .navBtn:hover {
     opacity: 1;
@@ -148,50 +148,4 @@ article {
 
 .block {
     display: block;
-}
-
-/* 1024 */
-@media only screen and (max-width: 1024px) {
-    .container {
-        width: 100%;
-        margin: 0;
-    }
-    header {
-        width: 8%;
-    }
-    .main {
-      width: 92%;
-    }
-}
-
-/* 768 */
-@media only screen and (max-width: 768px) {
-    header {
-        width: 10%;
-    }
-    .main {
-      width: 90%;
-    }
-}
-
-/* 480 */
-@media only screen and (max-width: 480px) {
-    header {
-        width: 10%;
-    }
-    .main {
-      width: 90%;
-    }
-    h3 {
-      font-size: 2em;
-}
-
-/* 320 */
-@media only screen and (max-width: 320px) {
-    header {
-        width: 15%;
-    }
-    .main {
-      width: 85%;
-    }
 }

@@ -21,7 +21,17 @@
 
 es:
   #My own Dictionary
-  hello: Que avido
+  login: Login
+  logout: Logout
+  edit_user: Mi información
+  #SweetAlert Messages
+  locale_changed: Lenguaje cambiado
+  locale_changed_error: Error al intentar cambiar de lenguaje
+  #SweetAlert Titles
+  info: Información
+  error: ¡Error!
+  warning: ¡Advertencia!
+  success: ¡Exito!
   date:
     abbr_day_names:
     - dom

@@ -24,6 +24,14 @@ en:
   login: Login
   logout: Logout
   edit_user: My Info
+  #SweetAlert Messages
+  locale_changed: Language changed
+  locale_changed_error: Error trying to change language
+  #SweetAlert Titles
+  info: Info
+  error: Error!
+  warning: Warning!
+  success: Success!
   date:
     abbr_day_names:
     - Sun

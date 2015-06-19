@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require twitter/bootstrap
 //= require mousetrap
 //= require jquery.nested-fields
 //= require sweet-alert
@@ -20,7 +21,6 @@
 //= require dataTables/jquery.dataTables
 //= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
 //= require moment
-//= require twitter/bootstrap
 //= require_tree .
 
 $(document).ready(function () {	

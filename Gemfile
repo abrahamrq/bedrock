@@ -13,10 +13,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 #MINE
 
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
 gem 'mousetrap-rails'
-
 gem 'jquery-turbolinks'
 gem 'puma'
 gem 'simple_form'
@@ -24,6 +21,7 @@ gem 'paranoia', '2.0.4'
 gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails',
                             branch: 'master', submodules: true
 gem 'slim-rails'
+gem 'twitter-bootstrap-rails'
 gem 'jquery-datatables-rails', '~> 3.1.1'
 gem 'font-awesome-rails'
 gem 'awesome_nested_fields'

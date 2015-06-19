@@ -10,7 +10,19 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+//= require jquery
+//= require jquery.turbolinks
+//= require jquery_ujs
+//= require jquery.nested-fields
+//= require sweet-alert
+//= require sweet-alert-confirm
+//= require dataTables/jquery.dataTables
+//= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
+//= require twitter/bootstrap
+//= require moment
+//= require bootstrap-datetimepicker
+//= require pickers
+
+
+//= require turbolinks

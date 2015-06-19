@@ -31,6 +31,7 @@ gem 'momentjs-rails', '>= 2.8.1'
 group :development, :test do
 	gem 'pry-rails'
 	gem 'better_errors'
+	gem "binding_of_caller"
   gem 'spring'
   gem 'factory_girl_rails'
   gem 'rspec-rails'

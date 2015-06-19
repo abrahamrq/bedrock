@@ -8,3 +8,6 @@ nav
   	| About
   a href="#"
   	| Contact
+  -if user_signed_in?
+  	a href="#{edit_user_registration_path(current_user)}"
+      | Edit Info

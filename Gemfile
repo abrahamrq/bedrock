@@ -13,11 +13,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 #MINE
 
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+gem 'mousetrap-rails'
+
 gem 'jquery-turbolinks'
 gem 'puma'
 gem 'simple_form'
 gem 'paranoia', '2.0.4'
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'datetimepicker-rails', github: 'zpaulovics/datetimepicker-rails',
                             branch: 'master', submodules: true
 gem 'slim-rails'

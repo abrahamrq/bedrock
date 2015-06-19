@@ -23,7 +23,7 @@ es:
   no_receive_confirmation: "¿No recibiste las instrucciones de confirmación?"
   no_receive_unlock: "¿No recibiste las instrucciones de desbloqueo?"
   sign_in_with: Iniciar sesión con
-  unhappy: Unhappy?
+  unhappy: ¿No te gustó?
   devise:
     confirmations:
       confirmed: "Su cuenta ha sido confirmada."

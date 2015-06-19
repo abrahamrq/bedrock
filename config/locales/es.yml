@@ -20,6 +20,29 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 es:
+  activerecord:
+    models:
+      user:
+        one: Usuario
+        other: Usuarios
+    attributes:
+      user:
+        email: Email
+        encrypted_password: Contraseña encriptada
+        reset_password_token: Token para resetear contraseña
+        reset_password_sent_at: Contraseña nueva enviada el
+        remember_created_at: Recuerdame creado el
+        sign_in_count: Contador de Sesiones
+        current_sign_in_at: Sesión actual el
+        last_sign_in_at: Ultima sesión el
+        current_sign_in_ip: IP de sesión actual
+        last_sign_in_ip: IP de ultima sesión
+        created_at: Creado el
+        updated_at: Actualizado el
+        locale: Lenguaje
+        password: Contraseña
+        password_confirmation: Confirmación de contraseña
+        current_password: Contraseña actual
   #My own Dictionary
   login: Login
   logout: Logout

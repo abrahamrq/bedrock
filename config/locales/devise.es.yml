@@ -1,6 +1,29 @@
 # Traducciones adicionales en https://github.com/plataformatec/devise/wiki/I18n
- 
+
 es:
+  resend_confirmation: Reenviar instructiones de confirmation
+  change_password: Cambiar contraseña
+  characters_minimum: caracteres minimo
+  change_my_password: Cambiar mi contraseña
+  new_password: Nueva Contraseña
+  confirm_new_password: Confirmar nueva contraseña
+  forgot_password: ¿Olvidaste tu contraseña?
+  send_new_password: Enviarme instrucciones para nueva contraseña
+  edit: Editar
+  waiting_confirmation: "Actualmente esperando confirmación de:"
+  leave_it_blank: dejar en blanco si no se quiere cambiar 
+  need_current_password: necesitamos tu contraseña actual para confirmar los cambios
+  update: Actualizar
+  cancel_my_account: Cancelar mi cuenta
+  are_you_sure: "¿Estas Seguro?"
+  back: Atras
+  sign_up: Registrar
+  login: Accesar
+  resend_unlock: Reenviar instrucciones de desbloqueo
+  no_receive_confirmation: "¿No recibiste las instrucciones de confirmación?"
+  no_receive_unlock: "¿No recibiste las instrucciones de desbloqueo?"
+  sign_in_with: Iniciar sesión con
+  unhappy: Unhappy?
   devise:
     confirmations:
       confirmed: "Su cuenta ha sido confirmada."

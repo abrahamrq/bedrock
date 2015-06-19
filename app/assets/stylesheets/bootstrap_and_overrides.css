@@ -104,6 +104,11 @@ nav a {
     font-weight: bold;
     line-height: 1.85em;
 }
+
+nav a.locale_active {
+    float: none;
+    line-height: 1.1em;
+}
 nav a:hover, .current, .toggle .navBtn {
     opacity: 1;
 }

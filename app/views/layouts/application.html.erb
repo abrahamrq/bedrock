@@ -8,7 +8,12 @@
 </head>
 <body>
 
-<%= yield %>
+	<div class="row">
+		<%= render 'layouts/sweet_alerts' %>
+	  <div class="col-md-12">
+	  	<%= yield %>
+	  </div>
+	</div>
 
 </body>
 </html>
